@@ -1,0 +1,69 @@
+
+body {
+    font-family: Roboto;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: black;
+}
+.feed {
+    background-color: white;
+    padding: 15px;
+}
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.fa-brands.fa-html5 {
+    font-size: 40px;
+}
+
+
+#titulo {
+    display: flex;
+    width: 80%;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+   
+}
+
+.perfil {
+    
+    align-items: center;
+    margin-left: 10px;
+    padding: 0;
+}
+
+
+.perfil h3 {
+    margin: 0;
+
+}
+
+
+.perfil p {
+    margin: 0;
+}
+
+#post {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#post img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
